@@ -2,6 +2,7 @@
 
 ## Input Data: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 A description of the data files can be found in the accompanying txt files.
 
 ## Full Description of Input Data:
