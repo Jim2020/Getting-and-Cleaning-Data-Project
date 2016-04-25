@@ -10,42 +10,48 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## Data Transformations performed by run_analysis.R:
 ### Get the data
-Download and unzip input data
-Read the activity files found in ./data/train/y_train.txt and ./data/test/y_test.txt
-Read the subject files found in ./data/train/subject_train.txt and ./data/test/subject_test.txt
-Read the measured feature data found in ./data/train/X_train.txt and ./data/test/X_test.txt
+- Download and unzip input data
+- Read the activity files found in ./data/train/y_train.txt and ./data/test/y_test.txt
+- Read the subject files found in ./data/train/subject_train.txt and ./data/test/subject_test.txt
+- Read the measured feature data found in ./data/train/X_train.txt and ./data/test/X_test.txt
 
 ### Merge the training and test data sets to create one data set
-Concatenate the data tables by rows
-Set names to the variables for subject, activity, and the feature names provided by the input
-Merge all the columns 
+- Concatenate the data tables by rows
+- Set names to the variables for subject, activity, and the feature names provided by the input
+- Merge all the columns 
 
 ### Extract only the measurements on the mean and standard deviation for each measurement
-Subset the feature names based on "mean" and "std"
-Subset the full data set by the names of the features
+- Subset the feature names based on "mean" and "std"
+- Subset the full data set by the names of the features
 
 ### Apply the descriptive activity names 
-Read the input file with the activity name labels
-Convert all the activity ID numbers to the labels in the data set
+- Read the input file with the activity name labels
+- Convert all the activity ID numbers to the labels in the data set
 
 ### Label the data set with descriptive variable names
 
 ### Create a tidy data set with the average of each variable for each activity and subject
-Determine the average of each variable for each activity and each subject
-Order by subject, then activity
-Save the new tidy data set in a file named tidydata.txt
+- Determine the average of each variable for each activity and each subject
+- Order by subject, then activity
+- Save the new tidy data set in a file named tidydata.txt
 
 ## SUBJECTS
 Individuals with identifiers 1 - 30
 
 ## ACTIVITIES
 There are 6 activities:
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+
+1. WALKING
+
+2. WALKING_UPSTAIRS
+
+3. WALKING_DOWNSTAIRS
+
+4. SITTING
+
+5. STANDING
+
+6. LAYING
 
 ## VARIABLES MEASURED
  [3] "timeBodyAccelerometer-mean()-X"                
