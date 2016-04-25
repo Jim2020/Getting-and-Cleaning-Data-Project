@@ -53,7 +53,7 @@ There are 6 activities:
 
 6. LAYING
 
-## VARIABLES MEASURED
+## VARIABLES 
 "timeBodyAccelerometer-mean()-X"                
 "timeBodyAccelerometer-mean()-Y"                
 "timeBodyAccelerometer-mean()-Z"                
